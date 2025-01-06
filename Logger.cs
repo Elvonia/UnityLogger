@@ -59,7 +59,7 @@ public class Logger : MelonMod
 
     public override void OnInitializeMelon()
     {
-        string path = Path.Combine(MelonEnvironment.GameRootDirectory + "\\Logs");
+        string path = Path.Combine(MelonEnvironment.GameRootDirectory, "Logs");
         CommonAwake(path);
     }
 
